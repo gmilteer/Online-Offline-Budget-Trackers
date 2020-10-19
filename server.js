@@ -18,7 +18,7 @@ app.use(express.static("public"));
 mongoose
   .connect(
     process.env.MONGODB_URI ||
-      "mongodb+srv://gmilteer:Myrtleamy12@cluster0.gpnge.mongodb.net/Budget-Tracker?retryWrites=true&w=majority",
+      "mongodb+srv://gmilteer:Myrtleamy12@cluster0.gpnge.mongodb.net/<dbname>?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
