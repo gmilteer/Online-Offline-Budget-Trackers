@@ -14,6 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
+// routes
+app.use(require("./routes/api.js"));
 
 mongoose
   .connect(
@@ -33,6 +35,3 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-
-// routes
-app.use(require("./routes/api.js"));
