@@ -20,12 +20,16 @@ app.use(express.static(__dirname + "/public"));
 // routes
 app.use(require("./routes/api.js"));
 
-mongoose.connect(MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-});
+mongoose.connect(
+  process.env.MONGODB_URI ||
+    "mongodb+srv://gmilteer:Myrtleamy12@cluster0.gpnge.mongodb.net/Budget-Tracker?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  }
+);
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
