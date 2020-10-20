@@ -1,6 +1,6 @@
 # Online-Offline-Budget-Trackers
 
-This is a Budget Tracker application to allow for offline access and functionality. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+This is a Budget Tracker application to allow for offline access and functionality.
 
 ## User Story
 
@@ -10,25 +10,15 @@ SO THAT my account balance is accurate when I am traveling
 
 ## Business Context
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
-## Landing Page
+## Budget Dashboard
 
-![Landing Page](./Assets/landing-page.png)
-
-## Adding Workout Exercises
-
-![Cardio](./Assets/cardio.png)
-
-![Resistance](./Assets/Resistence.png)
-
-## Exercise Stats Dashboard
-
-![Dashboard](./Assets/workout-dashboard.png)
+![Budget Dashboard](./public/icons/Budget-Tracker.png)
 
 ## Link to Deployed Application
 
-https://fast-fortress-57957.herokuapp.com/
+https://intense-ocean-77972.herokuapp.com/
 
 ## Support
 
